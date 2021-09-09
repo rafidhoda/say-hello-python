@@ -1,3 +1,6 @@
 name = input("Enter your name: ")
 
-print("Hello " + name)
+def sayHello(name):
+  print("Hello " + name)
+
+sayHello(name)
